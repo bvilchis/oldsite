@@ -1,1 +1,1 @@
-Live website demo: https://bvilchis.github.io/new/polaroid.html
+Live website demo: https://bvilchis.github.io/polaroid
