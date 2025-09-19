@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+
+</head>
+<body>
+        <div class="banner">
+        <nav>
+        <img src="pics/polaroid.png">
+        <h1>Polaroid</h1>
+        <ul>
+            <li><a href="/polaroid.html">Home</a></li>
+            <li><a href="/products.html">Cameras</a></li>
+            <li><a href="/films.html">Film</a></li>
+            <li><a href="/repairs.html">Repairs</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </div>
+
+      
+  <h2>Contact Us</h2>
+
+
+<div id="contactcontainer">
+  <div class="contact">
+        <p class="contactmessage">Fill out the form to your right with your message and we'll get
+          back to you at our earliest convience.
+        <br></br>We are reachable through the following forms of contact:
+        <br></br>
+        <br></br><img class="emblems"src="/pics/icons8-phone-50.png"  id="phone">+19177692799
+        <br></br><img class="emblems"src="/pics/icons8-mail-50.png"  id="mail"> polaroidcameras@gmail.com
+        <br></br><img class="emblems"src="/pics/icons8-location.gif" alt="mail emblem" id="mail"> 156 East 85th Street, New York, NY 10028
+        </p>
+       
+
+
+   </div> 
+
+  <div class="contactform">
+    <form>
+        <div>
+        <label for="fnamecontact">First Name</label>
+        <input type="text" placeholder="First" id="fnamecontact">
+        </div>
+
+        <div>
+        <label for="lnamecontact">Last Name</label>
+        <input type="text" placeholder="Last" id="lnamecontact">
+       </div>
+
+        <!-- if you want each text input to beahve on its own line, 
+         gonna have to stick them in block lvl divs-->
+
+       <div>
+        <label for="Email" >Email</label>
+        <input type="text" placeholder="@" id="Email">
+      </div>
+
+      <div>
+        <label for="number">Phone #</label>
+        <input type="text" placeholder="xxx-xxx-xxxx" >
+      </div>
+
+        <label for="customermsg">Your Message:</label>
+        <textarea id="customermsg" placeholder="Type your message here"></textarea>
+
+ 
+    <button type="submit" id="submitcontact">Submit</button>
+
+
+    </form>
+    </div>
+</div>
+
+  
+</body>
+</html>

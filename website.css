@@ -1,0 +1,356 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: inline-block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+section{
+    width: 90%;
+    height:700px;
+    background-image: url(https://1000logos.net/wp-content/uploads/2022/06/Polaroid-logo.png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    scale: 50%;
+    
+}
+
+.submain {
+    font-size: 5em;
+    transform: translate(10px,600px);
+    transition: transform 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+ 
+.submain:hover{
+
+    transform: translate(10px,590px);
+    color: white;
+    background-color: rgb(175, 156, 156);
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+.submain:active{
+    color:orange;
+    background-color: rgb(203, 198, 188);
+    
+
+}
+
+.sidebar{
+    font-size: 1em;
+    margin:10px;
+    transform: translate(-600px,-1000px);
+
+}
+
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(600px,70px)
+}
+
+footer{
+    transform: translateY(-100px);
+}
+
+.banner{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(169, 162, 162);
+    position: fixed;
+    
+
+
+}
+.bannerheader{
+    color: white;
+    
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:10px;
+}
+nav li{
+    display: inline-flex;
+    margin: 20px;
+    color:#F0F0F0;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+li:hover{
+    transform: translateY(-2px);
+    transition: transform 0.3s ease-out;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+li:active{
+    color:blue;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+    transform:translateX(-260px)
+    
+}
+h1{
+    color:white;
+    transform:translateX(-220px);
+    margin-top: 30px;
+
+
+    
+}
+.container{
+    margin-bottom: 40px;
+}
+.container img{
+    width: 400px;
+    height: 600px;
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-between;
+}
+h2{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cost{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.grid{
+    padding-bottom: 80px;
+}
+.container .film{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+
+.about #originals{
+    width: 670px;
+    height: 500px;  
+    margin-left: 200px;
+
+
+}
+
+.ourmission{
+
+    display: flex;
+    justify-content: center;
+}
+
+.mission{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 130%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 170px 70px 190px;
+}
+
+input{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 30px;
+    width: 300px;
+
+
+}
+
+.form{
+
+   display: flex;
+   justify-content: center;
+   height: 500px;
+   margin-left: 60px;
+   width: auto;
+   padding: 0;
+
+}
+input[type="submit"] {
+    margin-top: 100px;
+    margin-left: 250px;
+    
+
+}
+
+label[for="First"]{
+    display: block;
+}
+label[for="Last"]{
+    display: block;
+}
+label[for="First"]{
+    display: block;
+}
+label[for="Email"]{
+    display: block;
+}
+label[for="Address"]{
+    display: block;
+}
+
+label[for="State"]{
+    display: block;
+}
+label[for="number"]{
+    display: block;
+}
+label[for="Zip"]{
+    display: block;
+}
+label[for="City"]{
+    display: block;
+}
+
+.contact{
+    display: flex;
+
+  
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+    margin-right: 100px;
+    padding: 0;
+}
+
+input[id="lnamecontact"]{
+    width: 300px;
+}
+.contactform{
+    width: 1000px;
+    transform: translateX(50px);
+}
+
+.contactmessage{
+    padding: 50px 100px 0px 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.contactform {
+    padding-top: 50px;
+}
+
+#contactcontainer{
+    display: flex;
+    
+}
+
+label{
+    margin-bottom: 15px;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+#submitcontact{
+    display: block;
+    margin-top: 20px;
+}
+/*it seems just moving the label should be enough
+to move everything*/
+
+#submitcontact{
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+    font-size: 1em;
+
+}
+#submitcontact:hover{
+
+    transform: translateY(-5px);
+    color: white;
+    background-color: rgb(175, 156, 156);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+#phone{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    transform: translateY(5px);
+
+}
+#mail{
+    width: 30px;
+    height: 30px;
+    transform: translateY(5px);
+}
+
+/*for future reference alwayysss if your dealing with flexbox 
+wrap the parent container with a solid red 1px border to ensure
+the parent container has the appropriate dimensions to import
+flexbox and move things around the way you want*/
